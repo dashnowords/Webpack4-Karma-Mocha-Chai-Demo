@@ -1,35 +1,35 @@
 # Webpack4-Karma-Mocha-Chai-Demo
 
-## 1.ÏîÄ¿ËµÃ÷
-»ùÓÚ`webpack`4.0°æ±¾µÄ×Ô¶¯»¯²âÊÔÌ×¼şÅäÖÃÊ¾Àı£¨2018Äê8ÔÂÈ«ĞÂ£¬Ç×²âÓĞĞ§£©
-´úÂë¸²¸ÇÂÊ±¨¸æ£º
+## 1.é¡¹ç›®è¯´æ˜
+åŸºäº`webpack`4.0ç‰ˆæœ¬çš„è‡ªåŠ¨åŒ–æµ‹è¯•å¥—ä»¶é…ç½®ç¤ºä¾‹ï¼ˆ2018å¹´8æœˆå…¨æ–°ï¼Œäº²æµ‹æœ‰æ•ˆï¼‰
+ä»£ç è¦†ç›–ç‡æŠ¥å‘Šï¼š
       
-µ¥Ôª²âÊÔ½á¹û£º
+å•å…ƒæµ‹è¯•ç»“æœï¼š
 
-## 2.Ïà¹Ø¿ò¼Ü¼°²å¼şËµÃ÷
-- `webpack`  ÏîÄ¿´ò°ü
-- `babel`  ES2015+Óï·¨×ª»»
-- `karma`  Ö§³ÖÔÚ²»Í¬ä¯ÀÀÆ÷ÖĞÔËĞĞµÄ²âÊÔÇı¶¯¿ò¼Ü
-- `karma-chrome-launcher` karma-**-launcher¾ùÎª¶ÔÓ¦ä¯ÀÀÆ÷µÄ¼ÓÔØ²å¼ş
-- `karma-coverage-instanbul-reporter` ¸²¸ÇÂÊ±¨¸æÉú³É²å¼ş
-- `karma-mocha-reporter` µ¥Ôª²âÊÔ±¨¸æÉú³É²å¼ş
-- `mocha`  µ¥Ôª²âÊÔ¿ò¼Ü
-- `chai`  Ö§³Ö*assert*,*expect*,*should*²»Í¬Óï·¨·ç¸ñµÄ¶ÏÑÔ¿â
-- `istanbul` js±àĞ´´úÂë¸²¸ÇÂÊ¼ì²â¹¤¾ß
-- `istanbul-instrumenter-loader` ÒµÎñÂß¼­´úÂëloader£¨ÓÃÓÚÇø·Ö²âÊÔ´úÂë£©
+## 2.ç›¸å…³æ¡†æ¶åŠæ’ä»¶è¯´æ˜
+- `webpack`  é¡¹ç›®æ‰“åŒ…
+- `babel`  ES2015+è¯­æ³•è½¬æ¢
+- `karma`  æ”¯æŒåœ¨ä¸åŒæµè§ˆå™¨ä¸­è¿è¡Œçš„æµ‹è¯•é©±åŠ¨æ¡†æ¶
+- `karma-chrome-launcher` karma-**-launcherå‡ä¸ºå¯¹åº”æµè§ˆå™¨çš„åŠ è½½æ’ä»¶
+- `karma-coverage-instanbul-reporter` è¦†ç›–ç‡æŠ¥å‘Šç”Ÿæˆæ’ä»¶
+- `karma-mocha-reporter` å•å…ƒæµ‹è¯•æŠ¥å‘Šç”Ÿæˆæ’ä»¶
+- `mocha`  å•å…ƒæµ‹è¯•æ¡†æ¶
+- `chai`  æ”¯æŒ*assert*,*expect*,*should*ä¸åŒè¯­æ³•é£æ ¼çš„æ–­è¨€åº“
+- `istanbul` jsç¼–å†™ä»£ç è¦†ç›–ç‡æ£€æµ‹å·¥å…·
+- `istanbul-instrumenter-loader` ä¸šåŠ¡é€»è¾‘ä»£ç loaderï¼ˆç”¨äºåŒºåˆ†æµ‹è¯•ä»£ç ï¼‰
 
-## 3.Ïà¹ØÎÄµµ
-- `Karma`¹ÙÍøÒÑ·Ï£¬ĞÂ°æĞèÒª´Ó`github`½ø
-[https://karma-runner.github.io/2.0/index.html](https://karma-runner.github.io/2.0/index.html)
+## 3.ç›¸å…³æ–‡æ¡£
+- `Karma`å®˜ç½‘å·²åºŸï¼Œæ–°ç‰ˆéœ€è¦ä»`github`è¿›
+    - [https://karma-runner.github.io/2.0/index.html](https://karma-runner.github.io/2.0/index.html)
 
-- `webpack`4.0ÈçºÎ¼¯³É`karma`
+- `webpack`4.0å¦‚ä½•é›†æˆ`karma`
 [https://www.webpackjs.com/guides/integrations/](https://www.webpackjs.com/guides/integrations/)
 
-- Ê¹ÓÃ`istanbul-instrumenter-loader`´¦ÀíÒµÎñÂß¼­´úÂë
+- ä½¿ç”¨`istanbul-instrumenter-loader`å¤„ç†ä¸šåŠ¡é€»è¾‘ä»£ç 
 [https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/](https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/)
 
-- Ê¹ÓÃ`karma-coverage-istanbul-reporter`Éú³É´úÂë¸²¸ÇÂÊ±¨¸æ
+- ä½¿ç”¨`karma-coverage-istanbul-reporter`ç”Ÿæˆä»£ç è¦†ç›–ç‡æŠ¥å‘Š
 [https://github.com/mattlewis92/karma-coverage-istanbul-reporter](https://github.com/mattlewis92/karma-coverage-istanbul-reporter)
 
-## 4.ÃùĞ»
-±¾ÆªÖĞÒµÎñÂß¼­²¿·Ö´úÂëÀ´×Ô[karma-webpack-example](https://github.com/gabel/karma-webpack-example)ÏîÄ¿£¨¸ÃÏîÄ¿ÖĞÅäÖÃÈÔÈ»ÓĞĞ§£¬Ê¹ÓÃµÄÊÇ`webpack`µÍ°æ±¾API£©¡£
+## 4.é¸£è°¢
+æœ¬ç¯‡ä¸­ä¸šåŠ¡é€»è¾‘éƒ¨åˆ†ä»£ç æ¥è‡ª[karma-webpack-example](https://github.com/gabel/karma-webpack-example)é¡¹ç›®ï¼ˆè¯¥é¡¹ç›®ä¸­é…ç½®ä»ç„¶æœ‰æ•ˆï¼Œä½¿ç”¨çš„æ˜¯`webpack`ä½ç‰ˆæœ¬APIï¼‰ã€‚
