@@ -3,9 +3,9 @@
 ## 1.项目说明
 基于`webpack`4.0版本的自动化测试套件配置示例（2018年8月全新，亲测有效）
 代码覆盖率报告：
-      
+![代码覆盖率报告截图](https://github.com/dashnowords/Webpack4-Karma-Mocha-Chai-Demo/blob/master/screenshot/coverage_report.png)
 单元测试结果：
-
+![单元测试结果截图](https://github.com/dashnowords/Webpack4-Karma-Mocha-Chai-Demo/blob/master/screenshot/coverage_report_cmd.png)
 ## 2.相关框架及插件说明
 - `webpack`  项目打包
 - `babel`  ES2015+语法转换
@@ -23,13 +23,13 @@
     - [https://karma-runner.github.io/2.0/index.html](https://karma-runner.github.io/2.0/index.html)
 
 - `webpack`4.0如何集成`karma`
-[https://www.webpackjs.com/guides/integrations/](https://www.webpackjs.com/guides/integrations/)
+    - [https://www.webpackjs.com/guides/integrations/](https://www.webpackjs.com/guides/integrations/)
 
 - 使用`istanbul-instrumenter-loader`处理业务逻辑代码
-[https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/](https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/)
+    - [https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/](https://www.webpackjs.com/loaders/istanbul-instrumenter-loader/)
 
 - 使用`karma-coverage-istanbul-reporter`生成代码覆盖率报告
-[https://github.com/mattlewis92/karma-coverage-istanbul-reporter](https://github.com/mattlewis92/karma-coverage-istanbul-reporter)
+    - [https://github.com/mattlewis92/karma-coverage-istanbul-reporter](https://github.com/mattlewis92/karma-coverage-istanbul-reporter)
 
 ## 4.鸣谢
 本篇中业务逻辑部分代码来自[karma-webpack-example](https://github.com/gabel/karma-webpack-example)项目（该项目中配置仍然有效，使用的是`webpack`低版本API）。
