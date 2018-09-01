@@ -6,7 +6,11 @@
 ![代码覆盖率报告截图](https://github.com/dashnowords/Webpack4-Karma-Mocha-Chai-Demo/blob/master/screenshot/coverage_report.png)
 单元测试结果：
 ![单元测试结果截图](https://github.com/dashnowords/Webpack4-Karma-Mocha-Chai-Demo/blob/master/screenshot/coverage_report_cmd.png)
-## 2.相关框架及插件说明
+## 2.demo使用方法
+- 1.下载本仓库，在根目录下输入`yarn`安装依赖；
+- 2.在根目录下输入`yarn run karma`启动Karma
+
+## 3.相关框架及插件说明
 - `webpack`  项目打包
 - `babel`  ES2015+语法转换
 - `karma`  支持在不同浏览器中运行的测试驱动框架
@@ -18,7 +22,7 @@
 - `istanbul` js编写代码覆盖率检测工具
 - `istanbul-instrumenter-loader` 业务逻辑代码loader（用于区分测试代码）
 
-## 3.相关文档
+## 4.相关文档
 - `Karma`官网已废，新版需要从`github`进
     - [https://karma-runner.github.io/2.0/index.html](https://karma-runner.github.io/2.0/index.html)
 
@@ -31,5 +35,5 @@
 - 使用`karma-coverage-istanbul-reporter`生成代码覆盖率报告
     - [https://github.com/mattlewis92/karma-coverage-istanbul-reporter](https://github.com/mattlewis92/karma-coverage-istanbul-reporter)
 
-## 4.鸣谢
+## 5.鸣谢
 本篇中业务逻辑部分代码来自[karma-webpack-example](https://github.com/gabel/karma-webpack-example)项目（该项目中配置仍然有效，使用的是`webpack`低版本API）。
